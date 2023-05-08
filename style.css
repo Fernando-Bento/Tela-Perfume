@@ -25,6 +25,7 @@ main{
     margin: 15px auto;
     border-radius: 2.5%;
     overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
 }
 
 section#img{
@@ -36,7 +37,7 @@ section#img{
 }
 
 section#produto{
-    margin: 25px;
+    padding: 25px;
 }
 
 div#descricao > h2, p{
@@ -59,7 +60,6 @@ div#descricao > h1{
 
 div#descricao > p{
     padding: 15px 7px;
-    text-align: left;
 }
 
 div#comprar{
@@ -85,7 +85,6 @@ button{
     width: 100%;
 
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 1em;
 
